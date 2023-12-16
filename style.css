@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: lightcyan;
+}
+.head {
+    font-family: 'Great Vibes', cursive !important;
+    font-family: 'Merienda', cursive !important;
+    padding: 20px 0;
+}
+button {
+    padding: 10px 5px;
+    width: 140px;
+    background-color: lightcyan;
+    border: 1px solid #03bdaf;
+    border-radius: 35px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #141212d1;
+}
+.timer {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px 0 20px 0;
+    font-family: monospace;
+}
+
+.clock {
+    margin: 10% auto;
+    border: 1px solid lightblue;
+    width: 50%;
+    background: #fff;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.365);
+}
